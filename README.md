@@ -1,3 +1,5 @@
 # YogaGently
 
-First commit
+First commit: file mangement
+
+Second commit: Bootstrap addition
