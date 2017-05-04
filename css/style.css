@@ -1,0 +1,8 @@
+*{
+    border: 1px solid red !important;
+}
+
+.container {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
