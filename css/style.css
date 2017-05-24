@@ -5,8 +5,13 @@
 .container {
     padding-bottom: 50px;
     padding-top: 50px;
+
 }
 
 p {
     text-align: center;
+}
+
+h1 {
+	font-size: 72px;
 }
