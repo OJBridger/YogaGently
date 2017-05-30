@@ -2,6 +2,27 @@
     border: 1px solid red !important;
 }
 
+body {
+	background-color: whitesmoke;
+	font-family: Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 72px;
+	text-align: center;
+	float: right;
+	padding-top: 40px;
+}
+
+.contactInfo {
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+	display: flex;
+	padding-left: 25px;
+}
+
 .container {
     padding-bottom: 50px;
     padding-top: 50px;
