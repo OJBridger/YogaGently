@@ -4,11 +4,11 @@
 
 body {
 	background-color: whitesmoke;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1 {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 72px;
 	text-align: center;
 	float: right;
@@ -17,7 +17,7 @@ h1 {
 
 .contactInfo {
 	text-decoration: none;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 10px;
 	display: flex;
 	padding-left: 25px;
