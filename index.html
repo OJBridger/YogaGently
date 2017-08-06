@@ -35,9 +35,9 @@
     <!--Image Bank-->
     <div class="container">
       <div class="row">
-        <div class="col-md-4"><img src="http://placehold.it/356x356" class="img-responsive"></div>
-        <div class="col-md-4"><img src="http://placehold.it/356x356" class="img-responsive"></div>
-        <div class="col-md-4"><img src="http://placehold.it/356x356" class="img-responsive"></div>
+        <div class="col-md-4" id="picBank"><img src="http://placehold.it/356x356" class="img-responsive"></div>
+        <div class="col-md-4" id="picBank"><img src="http://placehold.it/356x356" class="img-responsive"></div>
+        <div class="col-md-4" id="picBank"><img src="http://placehold.it/356x356" class="img-responsive"></div>
       </div>
     </div>
 
@@ -46,22 +46,22 @@
       <div class="row">
          <p>Yoga Gently 
 
-Starting Tuesday 19th September 2017
+            Starting Tuesday 19th September 2017
 
-A very easy and gentle class - suitable for all ages - beginners - and anyone looking for a gentle hour of nourishment for the body and soul. Yoga is for every body - shape size and ability. 
+            A very easy and gentle class - suitable for all ages - beginners - and anyone looking for a gentle hour of nourishment for the body and soul. Yoga is for every body - shape size and ability. 
 
-Gentle asana (yoga postures) promote flexibility, a sense of wellbeing and joy. Being aware of the breath in pranayama (breathing techniques) we develop our own sense of peace within. Enjoy some time out of the now to be in the moment to restore and relax in the union of mind and body.
+            Gentle asana (yoga postures) promote flexibility, a sense of wellbeing and joy. Being aware of the breath in pranayama (breathing techniques) we develop our own sense of peace within. Enjoy some time out of the now to be in the moment to restore and relax in the union of mind and body.
 
-'Yoga is a place to retreat, renew and heal, no matter where you are or the environment to practice, go inside to find a sanctuary that's all your own' 
+            'Yoga is a place to retreat, renew and heal, no matter where you are or the environment to practice, go inside to find a sanctuary that's all your own' 
 
-Tuesdays 6-7pm 
-Thursdays  10-11am 
+            Tuesdays 6-7pm 
+            Thursdays  10-11am 
 
-£10 per drop in class. 
+            £10 per drop in class. 
 
-Please bring a mat, a blanket and a cushion. 
+            Please bring a mat, a blanket and a cushion. 
 
-Private 1 to 1 tuition available. 
+            Private 1 to 1 tuition available. 
           </p>
        </div>
     </div>
@@ -69,33 +69,40 @@ Private 1 to 1 tuition available.
     <!--Contact Information-->
     <div class="container">
       <div class="row">
-        <h4 class="contactInfo">Number: 07903 681258</h4>
-        <h4 class="contactInfo">Email: denihazel@outlook.com</h4>
-        <h4 class="contactInfo">Address: All Saints Church Hall, 13 Queens Road, Hersham.</h4>
-
-        <div class="img-responsive" id="map">
+        <div class="col-md-4">
+          <h2 class="contactInfo">Contact Information</h2>
+          <h4 class="contactInfo">Number: 07903 681258</h4>
+          <h4 class="contactInfo">Email: denihazel@outlook.com</h4>
+          <h4 class="contactInfo">Address: All Saints Church Hall, 13 Queens Road, Hersham.</h4>
         </div>
 
-        <script>
-          function myMap() {
-            var myLatLng = {lat: 51.366724, lng: -0.401219};
+        <!--Interactive Map-->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-responsive" id="map"></div>
 
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 17,
-              center: myLatLng
-            });
+            <script>
+              function myMap() {
+                var myLatLng = {lat: 51.366724, lng: -0.401219};
 
-            var marker = new google.maps.Marker({
-              position: myLatLng,
-              map: map,
-              title: "We're Here!"
-            });
-          }
-        </script>
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 17,
+                  center: myLatLng
+                });
 
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr1uRPCPR8zf239vCePdNPBqg9t6-9PUc&callback=myMap">
-        </script>
+                var marker = new google.maps.Marker({
+                  position: myLatLng,
+                  map: map,
+                  title: "We're Here!"
+                });
+              }
+            </script>
+
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr1uRPCPR8zf239vCePdNPBqg9t6-9PUc&callback=myMap">
+            </script>
+          </div>
+        </div>
         
       </div>  
     </div>
