@@ -72,6 +72,24 @@ Private 1 to 1 tuition available.
         <h4 class="contactInfo">Number: 07903 681258</h4>
         <h4 class="contactInfo">Email: denihazel@outlook.com</h4>
         <h4 class="contactInfo">Address: All Saints Church Hall, Queens Road, Hersham.</h4>
+
+        <div id="map" style="width:400px;height:400px">
+        </div>
+
+        <script>
+        function myMap() {
+          var mapOptions = {
+            center: new google.maps.LatLng(51.3663433,-0.4024385),
+            zoom: 18,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+          }
+          var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+        </script>
+
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr1uRPCPR8zf239vCePdNPBqg9t6-9PUc&callback=myMap">
+          </script>
+        
       </div>  
     </div>
 
