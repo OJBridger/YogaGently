@@ -10,8 +10,8 @@ body {
 #title {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 72px;
-	text-align: center;
-	padding-top: 30px;
+	text-align: right;
+	padding-top: 90px;
 }
 
 .contactInfo {
@@ -31,13 +31,6 @@ p {
     text-align: center;
 }
 
-.img-responsive {
-  display: flex;
-  max-width: 100%;
-  max-height: 100%;
-  text-align: center;
-}
-
 #map {
 	height: 400px;
 	width: 400px;
@@ -52,13 +45,26 @@ p {
 	margin-bottom: 15px;
 }
 
-@media (max-width: 1040px) {
-	.logo {
+.logo {
+	margin-top: 15px;
+	margin-bottom: 15px
+}
+
+@media (max-width: 1270px) {
+	.picBank {
 		padding-left: 25%;
 		padding-right: 25%;
 	}
-	.picBank {
-		text-align:;
+	#title {
+		text-align: center;
+		padding: 0px;
+	}
+	.logo {
+	    padding-left: 35%;
+	    padding-right: 35%; 
+	}
+	.contactInfo {
+		text-align: left;
 		padding-left: 25%;
 		padding-right: 25%;
 	}
