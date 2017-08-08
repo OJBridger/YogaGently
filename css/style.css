@@ -1,4 +1,4 @@
-*{
+{
     border: 1px solid red !important;
 }
 
@@ -12,6 +12,7 @@ body {
 	font-size: 72px;
 	text-align: right;
 	padding-top: 90px;
+	color: slategrey;
 }
 
 .contactInfo {
@@ -52,6 +53,12 @@ p {
 	text-align: center;
 }
 
+#divider {
+	height: 2px;
+	width: 100%;
+	background-color: slategrey;
+}
+
 @media (max-width: 1024px) {
 	.picBank {
 		padding-left: 25%;
@@ -66,8 +73,7 @@ p {
 	    padding-left: 35%;
 	    padding-right: 35%; 
 	}
-	.contactInfo {
-		text-align: left;
+	.contactInfo {	
 		padding-left: 25%;
 		padding-right: 25%;
 	}
