@@ -30,6 +30,7 @@ body {
 
 p {
     text-align: center;
+    letter-spacing: 1px;
 }
 
 #map {
@@ -97,5 +98,12 @@ p {
 		position: relative;
 		text-align: center;
 		padding: 0px;
+	}
+	.picBank {
+		margin-bottom: 50px;
+	}
+	p {
+		line-height: 25px;
+	}
 }
 
