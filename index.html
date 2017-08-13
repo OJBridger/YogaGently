@@ -21,7 +21,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
 
     <!--Header-->
@@ -36,10 +35,10 @@
       </div>
     </div>
 
+    <!--Divier-->
     <div class="container">
       <div class="row">
-        <div class="col-md-12" id="divider">
-        </div>
+        <div class="col-md-12" id="divider"></div>
       </div>
     </div>
 
@@ -47,16 +46,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="picBank"> <img src="http://placehold.it/356x356" class="imgResponsive">
-          </div>
+          <div class="picBank"> <img src="http://placehold.it/356x356" class="imgResponsive"></div>
         </div>
         <div class="col-md-4">
-          <div class="picBank"> <img src="http://placehold.it/356x356" class="imgResponsive">
-          </div>
+          <div class="picBank"> <img src="http://placehold.it/356x356" class="imgResponsive"></div>
         </div>
         <div class="col-md-4">
-          <div class="picBank"> <img src="http://placehold.it/356x356" class="imgResponsive">
-          </div> 
+          <div class="picBank"> <img src="http://placehold.it/356x356" class="imgResponsive"></div> 
         </div>
       </div>  
     </div>
@@ -64,23 +60,22 @@
     <!--Description-->
     <div class="container">
       <div class="row" id="textBody">
-         <p>
-            'Yoga Gently' 
-            Starting Tuesday 19th September 2017
-            <br>
-            <br>  
-            A very easy and gentle class, suitable for all ages and anyone looking for a gentle hour of nourishment for the body and soul. Yoga is for every body - shape size and ability. 
-            Gentle asana (yoga postures) promote flexibility, a sense of wellbeing and joy. Being aware of the breath in pranayama (breathing techniques) we develop our own sense of peace within. Enjoy some time out of the now to be in the moment to restore and relax in the union of mind and body.
-            'Yoga is a place to retreat, renew and heal, no matter where you are or the environment to practice, go inside to find a sanctuary that's all your own'
-            <br>
-            <br>
-            </p>
-
-            <h4 class="classInfo">Tuesdays: 6-7pm</h4>
-            <h4 class="classInfo">Thursdays:    10-11am</h4>
-            <h4 class="classInfo">£10 per drop in class</h4>
-            <h4 class="classInfo">Please bring a mat, a blanket and a cushion</h4>
-            <h4 class="classInfo">Private 1 to 1 tuition available</h4>     
+        <p>
+          'Yoga Gently' 
+          Starting Tuesday 19th September 2017
+          <br>
+          <br>  
+          A very easy and gentle class, suitable for all ages and anyone looking for a gentle hour of nourishment for the body and soul. Yoga is for every body - shape size and ability. 
+          Gentle asana (yoga postures) promote flexibility, a sense of wellbeing and joy. Being aware of the breath in pranayama (breathing techniques) we develop our own sense of peace within. Enjoy some time out of the now to be in the moment to restore and relax in the union of mind and body.
+          'Yoga is a place to retreat, renew and heal, no matter where you are or the environment to practice, go insidto find a sanctuary that's all your own'
+          <br>
+          <br>
+        </p>
+        <h4 class="classInfo">Tuesdays: 6-7pm</h4>
+        <h4 class="classInfo">Thursdays: 10-11am</h4>
+        <h4 class="classInfo">£10 per drop in class</h4>
+        <h4 class="classInfo">Please bring a mat, a blanket and a cushion</h4>
+        <h4 class="classInfo">Private 1 to 1 tuition available</h4> 
        </div>
     </div>
 
@@ -99,36 +94,37 @@
           <div class="col-md-6">
             <div class="imgResponsive" id="map"></div>
 
-            <script>
-              function myMap() {
-                var myLatLng = {lat: 51.366482, lng: -0.400768};
+              <!--Map Function-->
+              <script>
+                function myMap() {
+                  var myLatLng = {lat: 51.366482, lng: -0.400768};
 
-                var map = new google.maps.Map(document.getElementById('map'), {
-                  zoom: 17,
-                  center: myLatLng
-                });
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 17,
+                    center: myLatLng
+                  });
 
-                var marker = new google.maps.Marker({
-                  position: myLatLng,
-                  map: map,
-                  title: "We're Here!"
-                });
-              }
-            </script>
+                  var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: "We're Here!"
+                  });
+                }
+              </script>
 
             <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr1uRPCPR8zf239vCePdNPBqg9t6-9PUc&callback=myMap">
             </script>
+
           </div>
-        </div>
-        
+        </div> 
       </div>  
     </div>
-
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
