@@ -38,6 +38,7 @@ body {
 
 p {
     text-align: center;
+    display: inline-block;
     letter-spacing: 1px;
 }
 
